@@ -22,7 +22,7 @@ This project is a simple university-level database assignment. It includes a use
 
 ### Technologies Used:
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** MySQL
+- **Backend:** PHP,MySQL
 
 The project includes an **ER Diagram** and **Relational Schema** provided as PDFs.
 
