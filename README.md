@@ -1,42 +1,44 @@
-# Employee Management System Database
+**Employee Management System Database**
 
-Hello There, It is a simple university project of database course. I have made a simple UI and basic SQL commands to make this project.
-Created with help of YouTube, Google, GitHub, Stack Overflow, free templates on the internet and so on.
+This project is a simple university-level database assignment. It includes a user-friendly interface and basic SQL commands, developed using resources like YouTube tutorials, Google, GitHub, Stack Overflow, and freely available online templates.
 
-## This site features:
-### Admin Panel:
-* Different Login system for Admin and Employees.
-* Admin can add new employees, Assign individual Porjects, Check Salary, Check Staus of projects, Mark the projects.
-* Leaderboard gets updated upon providing the marks.
-* According to the marks employees get bonus over the base salary.
+### Key Features:
 
-### User Panel:
-* Check the leaderboard, Due projects and salary.
-* Can view own profile and update the basic infos.
-* Submit the project.
-* Apply for leave.
+**Admin Panel:**
+- Separate login systems for Admins and Employees.
+- Admins can:
+  - Add new employees.
+  - Assign individual projects.
+  - View salaries and project statuses.
+  - Grade projects and update the leaderboard.
+  - Award bonuses based on project grades.
 
-## Languages used for this projects are:
-* HTML
-* CSS
-* Javascript
-* My SQL
+**Employee Panel:**
+- Employees can:
+  - View the leaderboard, pending projects, and salary details.
+  - Access and update their profile information.
+  - Submit project deliverables.
+  - Apply for leave.
 
-### ER Diagram and Relational Schema is also provided as PDF's. 
+### Technologies Used:
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** MySQL
 
-## Istallation Guide:
-1. Clone the whole repository to your localhost folder.
-2. Launch XAMPP (or any other similar service) and start Apache, My SQL
-3. Goto phpmyadmin and create a database named **370project** and then import the file named **370project.sql**
-4. Then launch the site.
+The project includes an **ER Diagram** and **Relational Schema** provided as PDFs.
 
-## Login Info:
-### Admin Panel:
-ID: admin
+### Installation Guide:
+1. Clone the repository to your localhost directory.
+2. Launch XAMPP (or a similar service) and start **Apache** and **MySQL**.
+3. Navigate to **phpMyAdmin** and:
+   - Create a database named `370project`.
+   - Import the provided `370project.sql` file.
+4. Access the site via your localhost.
 
-Pass: admin
+### Login Credentials:
+**Admin Panel:**
+- **Username:** `admin`
+- **Password:** `admin`
 
-### User Panel:
-ID: User's Email Address
-
-Pass: 1234 (By Default, User can change if they wish)
+**Employee Panel:**
+- **Username:** Employee's email address
+- **Password:** `1234` (default, can be changed by the user).
